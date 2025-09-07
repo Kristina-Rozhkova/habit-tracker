@@ -1,0 +1,15 @@
+[run]
+omit =
+    */migrations/*
+    */tests/*
+    */__init__.py
+    config/wsgi.py
+    config/asgi.py
+    */management/commands/*
+    */tasks.py
+    manage.py
+    */fixtures.py
+
+[html]
+directory = htmlcov
+title = Test Coverage Report
